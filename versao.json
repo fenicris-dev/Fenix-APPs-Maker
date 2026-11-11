@@ -1,0 +1,66 @@
+{
+  "versao": "5.8",
+  "componentes": [
+    {
+      "id": "livro",
+      "nome": "Livro das Regras",
+      "md": "MD/fenix-livro-das-regras.md",
+      "doc": "DOC/fenix-livro-das-regras.docx",
+      "tipo": "regra",
+      "obrigatorio": true
+    },
+    {
+      "id": "guia",
+      "nome": "Guia da Biblioteca",
+      "md": "MD/fenix-guia-da-biblioteca.md",
+      "doc": "DOC/fenix-guia-da-biblioteca.docx",
+      "tipo": "regra",
+      "obrigatorio": true
+    },
+    {
+      "id": "template-login",
+      "nome": "Template de Login",
+      "html": "templates/fenix-template-login.html",
+      "tipo": "template",
+      "obrigatorio": "se grupo B marcado"
+    },
+    {
+      "id": "template-splash",
+      "nome": "Template de Splash",
+      "html": "templates/fenix-template-splash.html",
+      "tipo": "template",
+      "obrigatorio": true
+    },
+    {
+      "id": "template-onboarding",
+      "nome": "Template de Onboarding",
+      "html": "templates/fenix-template-onboarding.html",
+      "tipo": "template",
+      "obrigatorio": "se grupo B marcado"
+    },
+    {
+      "id": "icones-aguia",
+      "nome": "Ícones da Águia",
+      "pasta": "Icon/",
+      "arquivos": ["Fenix_Icone_64.png", "Fenix_Icone_128.png", "Fenix_Icone_192.png", "Fenix_Icone_512.png"],
+      "tipo": "asset",
+      "obrigatorio": true
+    },
+    {
+      "id": "logo-azul",
+      "nome": "Logo Azul",
+      "pasta": "Logo/",
+      "arquivos": ["Fenix_Logo_Azul.png", "Fenix_Logo_Azul_320.png", "Fenix_Logo_Azul_640.png"],
+      "tipo": "asset",
+      "obrigatorio": true
+    },
+    {
+      "id": "termos",
+      "nome": "Termos de Uso e Política de Privacidade",
+      "pasta": "Termos/",
+      "arquivos": ["fenix-termos-de-uso.html", "fenix-politica-de-privacidade.html"],
+      "tipo": "legal",
+      "obrigatorio": "se grupo B marcado"
+    }
+  ]
+}
